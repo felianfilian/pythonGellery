@@ -5,3 +5,5 @@ html = """
 
 print(html)
 
+with open("index.html", "w") as file:
+    file.write(html)
